@@ -1,0 +1,46 @@
+{
+  "name": "gsdlabs-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bloomer": "^0.6.3",
+    "bulma": "^0.7.1",
+    "joi-browser": "^13.4.0",
+    "prop-types": "^15.6.2",
+    "qs": "^6.5.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-loader": "^2.4.5",
+    "react-loading": "^2.0.3",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.0.4",
+    "recompose": "^0.30.0"
+  },
+  "scripts": {
+    "start": "node set_config && react-scripts start",
+    "build": "node set_config && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint --fix src"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.4.0",
+    "dotenv": "^6.1.0",
+    "eslint-config-react-app": "^3.0.3",
+    "eslint-plugin-flowtype": "^2.50.3",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "shelljs": "^0.8.2"
+  }
+}
