@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { withRouter, Redirect} from "react-router-dom";
+import {Redirect} from "react-router-dom";
 import {lifecycle, compose} from 'recompose'
 import {connect} from '../hocs/contextProvider'
 
@@ -11,7 +11,6 @@ const enhance= compose(
    componentWillMount(){
      this.props.auth.logout()
    }
-  }),
-  withRouter
+  })
 )
 export default connect(enhance(Logout))

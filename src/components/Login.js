@@ -76,8 +76,8 @@ const Login = ({setEmail, isLoading, error, message, setPassword, errors={}, isV
 );
 
 const enhance = compose(
-    withState("password","setPassword", "Test12345"),
-    withState("email","setEmail", "admin555@example.com"),
+    withState("password","setPassword", ""),
+    withState("email","setEmail", ""),
     withHandlers({
       getValidations: ({email, password}) => () => [validateEmail(email), validatePassword(password)],  
    }), 
